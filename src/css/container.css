@@ -1,7 +1,6 @@
 /* Styles for Mobile devices */
 .container {
-  min-width: 320px;
-  max-width: 375px;
+  width: 400px;
   margin: 0 auto;
   padding: 20px 20px;
   font-family: 'Montserrat', sans-serif;
@@ -9,16 +8,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-}
-/* Styles for Tablet devices */
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-/* Styles for Desktop devices */
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
-  }
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }

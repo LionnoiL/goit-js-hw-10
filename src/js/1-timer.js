@@ -46,7 +46,6 @@ const startTimer = () => {
 startTimerBtnEl.addEventListener('click', startTimer);
 
 const stopTimer = () => {
-  startTimerBtnEl.disabled = false;
   inputDateTimePickerEl.disabled = false;
   clearInterval(timerId);
 };
